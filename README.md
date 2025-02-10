@@ -17,7 +17,8 @@
 
 #### c. Data Augmentation Process
 - A custom data augmentation function was implemented using the **Augly** library.
-- The following **10 augmentation techniques** were applied:
+- The following **11 augmentation techniques** were applied:
+
   - Rotation
   - Crop
   - Blur
@@ -59,6 +60,8 @@ Each image in the original dataset was augmented 3 times using a combination of 
 - **Batch Size**: 32
 
 Here models used for training with augmented and original data were initialised with same random weights, since deepcopy of a base model was made. 
+
+<img src="output.png" alt="Initial Weights for the Models" width="400"/>
 
 #### b. Model Architecture Diagram
 - **ResNet-50 Architecture** (as shown below)

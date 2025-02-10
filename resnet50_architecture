@@ -1,0 +1,1181 @@
+digraph {
+	graph [size="152.25,152.25"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	13524530304 [label="
+ ()" fillcolor=darkolivegreen1]
+	13524998832 [label=MeanBackward0]
+	13525706272 -> 13524998832
+	13525706272 [label=AddmmBackward0]
+	13525712560 -> 13525706272
+	13266988448 [label="classifier.1.bias
+ (2)" fillcolor=lightblue]
+	13266988448 -> 13525712560
+	13525712560 [label=AccumulateGrad]
+	13525698640 -> 13525706272
+	13525698640 [label=ViewBackward0]
+	13525697968 -> 13525698640
+	13525697968 [label=MeanBackward1]
+	13525705792 -> 13525697968
+	13525705792 [label=ReluBackward0]
+	13525705552 -> 13525705792
+	13525705552 [label=AddBackward0]
+	13525706368 -> 13525705552
+	13525706368 [label=NativeBatchNormBackward0]
+	13525712368 -> 13525706368
+	13525712368 [label=ConvolutionBackward0]
+	13525705216 -> 13525712368
+	13525705216 [label=ReluBackward0]
+	13525701856 -> 13525705216
+	13525701856 [label=NativeBatchNormBackward0]
+	13525707664 -> 13525701856
+	13525707664 [label=ConvolutionBackward0]
+	13525711216 -> 13525707664
+	13525711216 [label=ReluBackward0]
+	13525711984 -> 13525711216
+	13525711984 [label=NativeBatchNormBackward0]
+	13525705888 -> 13525711984
+	13525705888 [label=ConvolutionBackward0]
+	13525703728 -> 13525705888
+	13525703728 [label=ReluBackward0]
+	13525707040 -> 13525703728
+	13525707040 [label=AddBackward0]
+	13525700176 -> 13525707040
+	13525700176 [label=NativeBatchNormBackward0]
+	13525703968 -> 13525700176
+	13525703968 [label=ConvolutionBackward0]
+	13525700368 -> 13525703968
+	13525700368 [label=ReluBackward0]
+	13525697104 -> 13525700368
+	13525697104 [label=NativeBatchNormBackward0]
+	13525027568 -> 13525697104
+	13525027568 [label=ConvolutionBackward0]
+	13525028144 -> 13525027568
+	13525028144 [label=ReluBackward0]
+	13525040816 -> 13525028144
+	13525040816 [label=NativeBatchNormBackward0]
+	13525037120 -> 13525040816
+	13525037120 [label=ConvolutionBackward0]
+	13525700272 -> 13525037120
+	13525700272 [label=ReluBackward0]
+	13525030064 -> 13525700272
+	13525030064 [label=AddBackward0]
+	13525025072 -> 13525030064
+	13525025072 [label=NativeBatchNormBackward0]
+	13525036400 -> 13525025072
+	13525036400 [label=ConvolutionBackward0]
+	13525029440 -> 13525036400
+	13525029440 [label=ReluBackward0]
+	13525037552 -> 13525029440
+	13525037552 [label=NativeBatchNormBackward0]
+	13525039040 -> 13525037552
+	13525039040 [label=ConvolutionBackward0]
+	13525031264 -> 13525039040
+	13525031264 [label=ReluBackward0]
+	13525035872 -> 13525031264
+	13525035872 [label=NativeBatchNormBackward0]
+	13525037984 -> 13525035872
+	13525037984 [label=ConvolutionBackward0]
+	13525029296 -> 13525037984
+	13525029296 [label=ReluBackward0]
+	13525035968 -> 13525029296
+	13525035968 [label=AddBackward0]
+	13525034912 -> 13525035968
+	13525034912 [label=NativeBatchNormBackward0]
+	13525027040 -> 13525034912
+	13525027040 [label=ConvolutionBackward0]
+	13525031360 -> 13525027040
+	13525031360 [label=ReluBackward0]
+	13525038800 -> 13525031360
+	13525038800 [label=NativeBatchNormBackward0]
+	13525037408 -> 13525038800
+	13525037408 [label=ConvolutionBackward0]
+	13525025888 -> 13525037408
+	13525025888 [label=ReluBackward0]
+	13525027856 -> 13525025888
+	13525027856 [label=NativeBatchNormBackward0]
+	13525035680 -> 13525027856
+	13525035680 [label=ConvolutionBackward0]
+	13525032512 -> 13525035680
+	13525032512 [label=ReluBackward0]
+	13525032560 -> 13525032512
+	13525032560 [label=AddBackward0]
+	13525032992 -> 13525032560
+	13525032992 [label=NativeBatchNormBackward0]
+	13525037792 -> 13525032992
+	13525037792 [label=ConvolutionBackward0]
+	13525031744 -> 13525037792
+	13525031744 [label=ReluBackward0]
+	13525033424 -> 13525031744
+	13525033424 [label=NativeBatchNormBackward0]
+	13525030832 -> 13525033424
+	13525030832 [label=ConvolutionBackward0]
+	13525028960 -> 13525030832
+	13525028960 [label=ReluBackward0]
+	13525024976 -> 13525028960
+	13525024976 [label=NativeBatchNormBackward0]
+	13525034432 -> 13525024976
+	13525034432 [label=ConvolutionBackward0]
+	13525036352 -> 13525034432
+	13525036352 [label=ReluBackward0]
+	13525026848 -> 13525036352
+	13525026848 [label=AddBackward0]
+	13525028480 -> 13525026848
+	13525028480 [label=NativeBatchNormBackward0]
+	13525033616 -> 13525028480
+	13525033616 [label=ConvolutionBackward0]
+	13525030208 -> 13525033616
+	13525030208 [label=ReluBackward0]
+	13525025360 -> 13525030208
+	13525025360 [label=NativeBatchNormBackward0]
+	13525026272 -> 13525025360
+	13525026272 [label=ConvolutionBackward0]
+	13525035104 -> 13525026272
+	13525035104 [label=ReluBackward0]
+	13525040624 -> 13525035104
+	13525040624 [label=NativeBatchNormBackward0]
+	13525028768 -> 13525040624
+	13525028768 [label=ConvolutionBackward0]
+	13525034864 -> 13525028768
+	13525034864 [label=ReluBackward0]
+	13525030400 -> 13525034864
+	13525030400 [label=AddBackward0]
+	13525033568 -> 13525030400
+	13525033568 [label=NativeBatchNormBackward0]
+	13525033328 -> 13525033568
+	13525033328 [label=ConvolutionBackward0]
+	13525025456 -> 13525033328
+	13525025456 [label=ReluBackward0]
+	13525031936 -> 13525025456
+	13525031936 [label=NativeBatchNormBackward0]
+	13525037696 -> 13525031936
+	13525037696 [label=ConvolutionBackward0]
+	13525036208 -> 13525037696
+	13525036208 [label=ReluBackward0]
+	13525040768 -> 13525036208
+	13525040768 [label=NativeBatchNormBackward0]
+	13525039232 -> 13525040768
+	13525039232 [label=ConvolutionBackward0]
+	13525032608 -> 13525039232
+	13525032608 [label=ReluBackward0]
+	13525039280 -> 13525032608
+	13525039280 [label=AddBackward0]
+	13525039376 -> 13525039280
+	13525039376 [label=NativeBatchNormBackward0]
+	13525032416 -> 13525039376
+	13525032416 [label=ConvolutionBackward0]
+	13525038176 -> 13525032416
+	13525038176 [label=ReluBackward0]
+	13525038896 -> 13525038176
+	13525038896 [label=NativeBatchNormBackward0]
+	13525031504 -> 13525038896
+	13525031504 [label=ConvolutionBackward0]
+	13525038848 -> 13525031504
+	13525038848 [label=ReluBackward0]
+	13525037072 -> 13525038848
+	13525037072 [label=NativeBatchNormBackward0]
+	13525034240 -> 13525037072
+	13525034240 [label=ConvolutionBackward0]
+	13525032704 -> 13525034240
+	13525032704 [label=ReluBackward0]
+	13525036256 -> 13525032704
+	13525036256 [label=AddBackward0]
+	13525035056 -> 13525036256
+	13525035056 [label=NativeBatchNormBackward0]
+	13525035536 -> 13525035056
+	13525035536 [label=ConvolutionBackward0]
+	13525038752 -> 13525035536
+	13525038752 [label=ReluBackward0]
+	13525038224 -> 13525038752
+	13525038224 [label=NativeBatchNormBackward0]
+	13525034624 -> 13525038224
+	13525034624 [label=ConvolutionBackward0]
+	13539051264 -> 13525034624
+	13539051264 [label=ReluBackward0]
+	13539049824 -> 13539051264
+	13539049824 [label=NativeBatchNormBackward0]
+	13539049728 -> 13539049824
+	13539049728 [label=ConvolutionBackward0]
+	13539050736 -> 13539049728
+	13539050736 [label=ReluBackward0]
+	13539051600 -> 13539050736
+	13539051600 [label=AddBackward0]
+	13539052320 -> 13539051600
+	13539052320 [label=NativeBatchNormBackward0]
+	13539051024 -> 13539052320
+	13539051024 [label=ConvolutionBackward0]
+	13539050976 -> 13539051024
+	13539050976 [label=ReluBackward0]
+	13539051456 -> 13539050976
+	13539051456 [label=NativeBatchNormBackward0]
+	13539050688 -> 13539051456
+	13539050688 [label=ConvolutionBackward0]
+	13539051408 -> 13539050688
+	13539051408 [label=ReluBackward0]
+	13539053328 -> 13539051408
+	13539053328 [label=NativeBatchNormBackward0]
+	13539050304 -> 13539053328
+	13539050304 [label=ConvolutionBackward0]
+	13539052176 -> 13539050304
+	13539052176 [label=ReluBackward0]
+	13539054432 -> 13539052176
+	13539054432 [label=AddBackward0]
+	13539053376 -> 13539054432
+	13539053376 [label=NativeBatchNormBackward0]
+	13539054288 -> 13539053376
+	13539054288 [label=ConvolutionBackward0]
+	13539052368 -> 13539054288
+	13539052368 [label=ReluBackward0]
+	13539053040 -> 13539052368
+	13539053040 [label=NativeBatchNormBackward0]
+	13539050496 -> 13539053040
+	13539050496 [label=ConvolutionBackward0]
+	13539054480 -> 13539050496
+	13539054480 [label=ReluBackward0]
+	13539052896 -> 13539054480
+	13539052896 [label=NativeBatchNormBackward0]
+	13539052512 -> 13539052896
+	13539052512 [label=ConvolutionBackward0]
+	13539053904 -> 13539052512
+	13539053904 [label=ReluBackward0]
+	13539054912 -> 13539053904
+	13539054912 [label=AddBackward0]
+	13539055872 -> 13539054912
+	13539055872 [label=NativeBatchNormBackward0]
+	13539056256 -> 13539055872
+	13539056256 [label=ConvolutionBackward0]
+	13539056208 -> 13539056256
+	13539056208 [label=ReluBackward0]
+	13539055776 -> 13539056208
+	13539055776 [label=NativeBatchNormBackward0]
+	13539052704 -> 13539055776
+	13539052704 [label=ConvolutionBackward0]
+	13539054240 -> 13539052704
+	13539054240 [label=ReluBackward0]
+	13539055152 -> 13539054240
+	13539055152 [label=NativeBatchNormBackward0]
+	13539056880 -> 13539055152
+	13539056880 [label=ConvolutionBackward0]
+	13539050544 -> 13539056880
+	13539050544 [label=ReluBackward0]
+	13539055104 -> 13539050544
+	13539055104 [label=AddBackward0]
+	13539056688 -> 13539055104
+	13539056688 [label=NativeBatchNormBackward0]
+	13539055344 -> 13539056688
+	13539055344 [label=ConvolutionBackward0]
+	13539056448 -> 13539055344
+	13539056448 [label=ReluBackward0]
+	13539057264 -> 13539056448
+	13539057264 [label=NativeBatchNormBackward0]
+	13539057504 -> 13539057264
+	13539057504 [label=ConvolutionBackward0]
+	13539056976 -> 13539057504
+	13539056976 [label=ReluBackward0]
+	13539057600 -> 13539056976
+	13539057600 [label=NativeBatchNormBackward0]
+	13539055824 -> 13539057600
+	13539055824 [label=ConvolutionBackward0]
+	13539057840 -> 13539055824
+	13539057840 [label=ReluBackward0]
+	13539053184 -> 13539057840
+	13539053184 [label=AddBackward0]
+	13539058032 -> 13539053184
+	13539058032 [label=NativeBatchNormBackward0]
+	13539058608 -> 13539058032
+	13539058608 [label=ConvolutionBackward0]
+	13539055248 -> 13539058608
+	13539055248 [label=ReluBackward0]
+	13539058224 -> 13539055248
+	13539058224 [label=NativeBatchNormBackward0]
+	13539058752 -> 13539058224
+	13539058752 [label=ConvolutionBackward0]
+	13539059376 -> 13539058752
+	13539059376 [label=ReluBackward0]
+	13539060240 -> 13539059376
+	13539060240 [label=NativeBatchNormBackward0]
+	13539059280 -> 13539060240
+	13539059280 [label=ConvolutionBackward0]
+	13539058560 -> 13539059280
+	13539058560 [label=ReluBackward0]
+	13539060960 -> 13539058560
+	13539060960 [label=AddBackward0]
+	13539052608 -> 13539060960
+	13539052608 [label=NativeBatchNormBackward0]
+	13539060672 -> 13539052608
+	13539060672 [label=ConvolutionBackward0]
+	13539061104 -> 13539060672
+	13539061104 [label=ReluBackward0]
+	13539060480 -> 13539061104
+	13539060480 [label=NativeBatchNormBackward0]
+	13539056832 -> 13539060480
+	13539056832 [label=ConvolutionBackward0]
+	13539059616 -> 13539056832
+	13539059616 [label=ReluBackward0]
+	13539061872 -> 13539059616
+	13539061872 [label=NativeBatchNormBackward0]
+	13539055584 -> 13539061872
+	13539055584 [label=ConvolutionBackward0]
+	13539060912 -> 13539055584
+	13539060912 [label=ReluBackward0]
+	13539061152 -> 13539060912
+	13539061152 [label=AddBackward0]
+	13539061536 -> 13539061152
+	13539061536 [label=NativeBatchNormBackward0]
+	13539062160 -> 13539061536
+	13539062160 [label=ConvolutionBackward0]
+	13539059760 -> 13539062160
+	13539059760 [label=ReluBackward0]
+	13539062208 -> 13539059760
+	13539062208 [label=NativeBatchNormBackward0]
+	13539061920 -> 13539062208
+	13539061920 [label=ConvolutionBackward0]
+	13539062496 -> 13539061920
+	13539062496 [label=ReluBackward0]
+	13539062352 -> 13539062496
+	13539062352 [label=NativeBatchNormBackward0]
+	13539059712 -> 13539062352
+	13539059712 [label=ConvolutionBackward0]
+	13539062448 -> 13539059712
+	13539062448 [label=MaxPool2DWithIndicesBackward0]
+	13539062304 -> 13539062448
+	13539062304 [label=ReluBackward0]
+	13539063840 -> 13539062304
+	13539063840 [label=NativeBatchNormBackward0]
+	13539063408 -> 13539063840
+	13539063408 [label=ConvolutionBackward0]
+	13539062640 -> 13539063408
+	13266985648 [label="resnet.embedder.embedder.convolution.weight
+ (64, 3, 7, 7)" fillcolor=lightblue]
+	13266985648 -> 13539062640
+	13539062640 [label=AccumulateGrad]
+	13539064224 -> 13539063840
+	13266985248 [label="resnet.embedder.embedder.normalization.weight
+ (64)" fillcolor=lightblue]
+	13266985248 -> 13539064224
+	13539064224 [label=AccumulateGrad]
+	13539063360 -> 13539063840
+	13266984688 [label="resnet.embedder.embedder.normalization.bias
+ (64)" fillcolor=lightblue]
+	13266984688 -> 13539063360
+	13539063360 [label=AccumulateGrad]
+	13539063984 -> 13539059712
+	13157054368 [label="resnet.encoder.stages.0.layers.0.layer.0.convolution.weight
+ (64, 64, 1, 1)" fillcolor=lightblue]
+	13157054368 -> 13539063984
+	13539063984 [label=AccumulateGrad]
+	13539062400 -> 13539062352
+	13157054608 [label="resnet.encoder.stages.0.layers.0.layer.0.normalization.weight
+ (64)" fillcolor=lightblue]
+	13157054608 -> 13539062400
+	13539062400 [label=AccumulateGrad]
+	13539062064 -> 13539062352
+	13157054448 [label="resnet.encoder.stages.0.layers.0.layer.0.normalization.bias
+ (64)" fillcolor=lightblue]
+	13157054448 -> 13539062064
+	13539062064 [label=AccumulateGrad]
+	13539061968 -> 13539061920
+	13157053328 [label="resnet.encoder.stages.0.layers.0.layer.1.convolution.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	13157053328 -> 13539061968
+	13539061968 [label=AccumulateGrad]
+	13539057312 -> 13539062208
+	13157054128 [label="resnet.encoder.stages.0.layers.0.layer.1.normalization.weight
+ (64)" fillcolor=lightblue]
+	13157054128 -> 13539057312
+	13539057312 [label=AccumulateGrad]
+	13539061392 -> 13539062208
+	13157053008 [label="resnet.encoder.stages.0.layers.0.layer.1.normalization.bias
+ (64)" fillcolor=lightblue]
+	13157053008 -> 13539061392
+	13539061392 [label=AccumulateGrad]
+	13539060336 -> 13539062160
+	13157052048 [label="resnet.encoder.stages.0.layers.0.layer.2.convolution.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	13157052048 -> 13539060336
+	13539060336 [label=AccumulateGrad]
+	13539061248 -> 13539061536
+	13157052848 [label="resnet.encoder.stages.0.layers.0.layer.2.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157052848 -> 13539061248
+	13539061248 [label=AccumulateGrad]
+	13539059856 -> 13539061536
+	13157051728 [label="resnet.encoder.stages.0.layers.0.layer.2.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157051728 -> 13539059856
+	13539059856 [label=AccumulateGrad]
+	13539061776 -> 13539061152
+	13539061776 [label=NativeBatchNormBackward0]
+	13539061632 -> 13539061776
+	13539061632 [label=ConvolutionBackward0]
+	13539062448 -> 13539061632
+	13539062112 -> 13539061632
+	13157056448 [label="resnet.encoder.stages.0.layers.0.shortcut.convolution.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	13157056448 -> 13539062112
+	13539062112 [label=AccumulateGrad]
+	13539059424 -> 13539061776
+	13157056368 [label="resnet.encoder.stages.0.layers.0.shortcut.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157056368 -> 13539059424
+	13539059424 [label=AccumulateGrad]
+	13539060192 -> 13539061776
+	13157055968 [label="resnet.encoder.stages.0.layers.0.shortcut.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157055968 -> 13539060192
+	13539060192 [label=AccumulateGrad]
+	13539058416 -> 13539055584
+	13157054688 [label="resnet.encoder.stages.0.layers.1.layer.0.convolution.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	13157054688 -> 13539058416
+	13539058416 [label=AccumulateGrad]
+	13539061488 -> 13539061872
+	13158413760 [label="resnet.encoder.stages.0.layers.1.layer.0.normalization.weight
+ (64)" fillcolor=lightblue]
+	13158413760 -> 13539061488
+	13539061488 [label=AccumulateGrad]
+	13539053712 -> 13539061872
+	13158413360 [label="resnet.encoder.stages.0.layers.1.layer.0.normalization.bias
+ (64)" fillcolor=lightblue]
+	13158413360 -> 13539053712
+	13539053712 [label=AccumulateGrad]
+	13539060000 -> 13539056832
+	13158413040 [label="resnet.encoder.stages.0.layers.1.layer.1.convolution.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	13158413040 -> 13539060000
+	13539060000 [label=AccumulateGrad]
+	13539059568 -> 13539060480
+	13158409920 [label="resnet.encoder.stages.0.layers.1.layer.1.normalization.weight
+ (64)" fillcolor=lightblue]
+	13158409920 -> 13539059568
+	13539059568 [label=AccumulateGrad]
+	13539060144 -> 13539060480
+	13158409520 [label="resnet.encoder.stages.0.layers.1.layer.1.normalization.bias
+ (64)" fillcolor=lightblue]
+	13158409520 -> 13539060144
+	13539060144 [label=AccumulateGrad]
+	13539059184 -> 13539060672
+	13158409200 [label="resnet.encoder.stages.0.layers.1.layer.2.convolution.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	13158409200 -> 13539059184
+	13539059184 [label=AccumulateGrad]
+	13539059136 -> 13539052608
+	13158406080 [label="resnet.encoder.stages.0.layers.1.layer.2.normalization.weight
+ (256)" fillcolor=lightblue]
+	13158406080 -> 13539059136
+	13539059136 [label=AccumulateGrad]
+	13539060624 -> 13539052608
+	13158405680 [label="resnet.encoder.stages.0.layers.1.layer.2.normalization.bias
+ (256)" fillcolor=lightblue]
+	13158405680 -> 13539060624
+	13539060624 [label=AccumulateGrad]
+	13539060912 -> 13539060960
+	13539060720 -> 13539059280
+	13158405360 [label="resnet.encoder.stages.0.layers.2.layer.0.convolution.weight
+ (64, 256, 1, 1)" fillcolor=lightblue]
+	13158405360 -> 13539060720
+	13539060720 [label=AccumulateGrad]
+	13539058512 -> 13539060240
+	13158401840 [label="resnet.encoder.stages.0.layers.2.layer.0.normalization.weight
+ (64)" fillcolor=lightblue]
+	13158401840 -> 13539058512
+	13539058512 [label=AccumulateGrad]
+	13539057936 -> 13539060240
+	13158401520 [label="resnet.encoder.stages.0.layers.2.layer.0.normalization.bias
+ (64)" fillcolor=lightblue]
+	13158401520 -> 13539057936
+	13539057936 [label=AccumulateGrad]
+	13539054720 -> 13539058752
+	13157051568 [label="resnet.encoder.stages.0.layers.2.layer.1.convolution.weight
+ (64, 64, 3, 3)" fillcolor=lightblue]
+	13157051568 -> 13539054720
+	13539054720 [label=AccumulateGrad]
+	13539058080 -> 13539058224
+	5178622512 [label="resnet.encoder.stages.0.layers.2.layer.1.normalization.weight
+ (64)" fillcolor=lightblue]
+	5178622512 -> 13539058080
+	13539058080 [label=AccumulateGrad]
+	13539057984 -> 13539058224
+	5178622832 [label="resnet.encoder.stages.0.layers.2.layer.1.normalization.bias
+ (64)" fillcolor=lightblue]
+	5178622832 -> 13539057984
+	13539057984 [label=AccumulateGrad]
+	13539057888 -> 13539058608
+	13157054848 [label="resnet.encoder.stages.0.layers.2.layer.2.convolution.weight
+ (256, 64, 1, 1)" fillcolor=lightblue]
+	13157054848 -> 13539057888
+	13539057888 [label=AccumulateGrad]
+	13539058944 -> 13539058032
+	5178561456 [label="resnet.encoder.stages.0.layers.2.layer.2.normalization.weight
+ (256)" fillcolor=lightblue]
+	5178561456 -> 13539058944
+	13539058944 [label=AccumulateGrad]
+	13539058176 -> 13539058032
+	5178571536 [label="resnet.encoder.stages.0.layers.2.layer.2.normalization.bias
+ (256)" fillcolor=lightblue]
+	5178571536 -> 13539058176
+	13539058176 [label=AccumulateGrad]
+	13539058560 -> 13539053184
+	13539058368 -> 13539055824
+	5178595184 [label="resnet.encoder.stages.1.layers.0.layer.0.convolution.weight
+ (128, 256, 1, 1)" fillcolor=lightblue]
+	5178595184 -> 13539058368
+	13539058368 [label=AccumulateGrad]
+	13539057408 -> 13539057600
+	5178601824 [label="resnet.encoder.stages.1.layers.0.layer.0.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178601824 -> 13539057408
+	13539057408 [label=AccumulateGrad]
+	13539058656 -> 13539057600
+	5178601984 [label="resnet.encoder.stages.1.layers.0.layer.0.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178601984 -> 13539058656
+	13539058656 [label=AccumulateGrad]
+	13539057120 -> 13539057504
+	5178595904 [label="resnet.encoder.stages.1.layers.0.layer.1.convolution.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	5178595904 -> 13539057120
+	13539057120 [label=AccumulateGrad]
+	13539056592 -> 13539057264
+	5178595424 [label="resnet.encoder.stages.1.layers.0.layer.1.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178595424 -> 13539056592
+	13539056592 [label=AccumulateGrad]
+	13539056928 -> 13539057264
+	5178589424 [label="resnet.encoder.stages.1.layers.0.layer.1.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178589424 -> 13539056928
+	13539056928 [label=AccumulateGrad]
+	13539057648 -> 13539055344
+	5178603024 [label="resnet.encoder.stages.1.layers.0.layer.2.convolution.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	5178603024 -> 13539057648
+	13539057648 [label=AccumulateGrad]
+	13539055296 -> 13539056688
+	5178596064 [label="resnet.encoder.stages.1.layers.0.layer.2.normalization.weight
+ (512)" fillcolor=lightblue]
+	5178596064 -> 13539055296
+	13539055296 [label=AccumulateGrad]
+	13539053616 -> 13539056688
+	5178596624 [label="resnet.encoder.stages.1.layers.0.layer.2.normalization.bias
+ (512)" fillcolor=lightblue]
+	5178596624 -> 13539053616
+	13539053616 [label=AccumulateGrad]
+	13539055488 -> 13539055104
+	13539055488 [label=NativeBatchNormBackward0]
+	13539057744 -> 13539055488
+	13539057744 [label=ConvolutionBackward0]
+	13539057840 -> 13539057744
+	13539057552 -> 13539057744
+	5178622592 [label="resnet.encoder.stages.1.layers.0.shortcut.convolution.weight
+ (512, 256, 1, 1)" fillcolor=lightblue]
+	5178622592 -> 13539057552
+	13539057552 [label=AccumulateGrad]
+	13539056400 -> 13539055488
+	13158401280 [label="resnet.encoder.stages.1.layers.0.shortcut.normalization.weight
+ (512)" fillcolor=lightblue]
+	13158401280 -> 13539056400
+	13539056400 [label=AccumulateGrad]
+	13539055200 -> 13539055488
+	13157055088 [label="resnet.encoder.stages.1.layers.0.shortcut.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157055088 -> 13539055200
+	13539055200 [label=AccumulateGrad]
+	13539056784 -> 13539056880
+	5178595264 [label="resnet.encoder.stages.1.layers.1.layer.0.convolution.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	5178595264 -> 13539056784
+	13539056784 [label=AccumulateGrad]
+	13539053520 -> 13539055152
+	5178596784 [label="resnet.encoder.stages.1.layers.1.layer.0.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178596784 -> 13539053520
+	13539053520 [label=AccumulateGrad]
+	13539053760 -> 13539055152
+	5178603424 [label="resnet.encoder.stages.1.layers.1.layer.0.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178603424 -> 13539053760
+	13539053760 [label=AccumulateGrad]
+	13539054192 -> 13539052704
+	5178603824 [label="resnet.encoder.stages.1.layers.1.layer.1.convolution.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	5178603824 -> 13539054192
+	13539054192 [label=AccumulateGrad]
+	13539051936 -> 13539055776
+	5178596864 [label="resnet.encoder.stages.1.layers.1.layer.1.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178596864 -> 13539051936
+	13539051936 [label=AccumulateGrad]
+	13539055968 -> 13539055776
+	5178597264 [label="resnet.encoder.stages.1.layers.1.layer.1.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178597264 -> 13539055968
+	13539055968 [label=AccumulateGrad]
+	13539054960 -> 13539056256
+	5178597584 [label="resnet.encoder.stages.1.layers.1.layer.2.convolution.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	5178597584 -> 13539054960
+	13539054960 [label=AccumulateGrad]
+	13539052800 -> 13539055872
+	5178603984 [label="resnet.encoder.stages.1.layers.1.layer.2.normalization.weight
+ (512)" fillcolor=lightblue]
+	5178603984 -> 13539052800
+	13539052800 [label=AccumulateGrad]
+	13539054048 -> 13539055872
+	5178591104 [label="resnet.encoder.stages.1.layers.1.layer.2.normalization.bias
+ (512)" fillcolor=lightblue]
+	5178591104 -> 13539054048
+	13539054048 [label=AccumulateGrad]
+	13539050544 -> 13539054912
+	13539055440 -> 13539052512
+	5178591344 [label="resnet.encoder.stages.1.layers.2.layer.0.convolution.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	5178591344 -> 13539055440
+	13539055440 [label=AccumulateGrad]
+	13539051360 -> 13539052896
+	5178597744 [label="resnet.encoder.stages.1.layers.2.layer.0.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178597744 -> 13539051360
+	13539051360 [label=AccumulateGrad]
+	13539055008 -> 13539052896
+	5178597984 [label="resnet.encoder.stages.1.layers.2.layer.0.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178597984 -> 13539055008
+	13539055008 [label=AccumulateGrad]
+	13539054768 -> 13539050496
+	5178605024 [label="resnet.encoder.stages.1.layers.2.layer.1.convolution.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	5178605024 -> 13539054768
+	13539054768 [label=AccumulateGrad]
+	13539054672 -> 13539053040
+	5178604784 [label="resnet.encoder.stages.1.layers.2.layer.1.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178604784 -> 13539054672
+	13539054672 [label=AccumulateGrad]
+	13539053856 -> 13539053040
+	5178591824 [label="resnet.encoder.stages.1.layers.2.layer.1.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178591824 -> 13539053856
+	13539053856 [label=AccumulateGrad]
+	13539052272 -> 13539054288
+	5178605344 [label="resnet.encoder.stages.1.layers.2.layer.2.convolution.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	5178605344 -> 13539052272
+	13539052272 [label=AccumulateGrad]
+	13539053232 -> 13539053376
+	5178598544 [label="resnet.encoder.stages.1.layers.2.layer.2.normalization.weight
+ (512)" fillcolor=lightblue]
+	5178598544 -> 13539053232
+	13539053232 [label=AccumulateGrad]
+	13539052224 -> 13539053376
+	5178605424 [label="resnet.encoder.stages.1.layers.2.layer.2.normalization.bias
+ (512)" fillcolor=lightblue]
+	5178605424 -> 13539052224
+	13539052224 [label=AccumulateGrad]
+	13539053904 -> 13539054432
+	13539052560 -> 13539050304
+	5178592864 [label="resnet.encoder.stages.1.layers.3.layer.0.convolution.weight
+ (128, 512, 1, 1)" fillcolor=lightblue]
+	5178592864 -> 13539052560
+	13539052560 [label=AccumulateGrad]
+	13539053280 -> 13539053328
+	5178598944 [label="resnet.encoder.stages.1.layers.3.layer.0.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178598944 -> 13539053280
+	13539053280 [label=AccumulateGrad]
+	13539052080 -> 13539053328
+	5178599504 [label="resnet.encoder.stages.1.layers.3.layer.0.normalization.bias
+ (128)" fillcolor=lightblue]
+	5178599504 -> 13539052080
+	13539052080 [label=AccumulateGrad]
+	13539052944 -> 13539050688
+	5178599584 [label="resnet.encoder.stages.1.layers.3.layer.1.convolution.weight
+ (128, 128, 3, 3)" fillcolor=lightblue]
+	5178599584 -> 13539052944
+	13539052944 [label=AccumulateGrad]
+	13539050784 -> 13539051456
+	5178595104 [label="resnet.encoder.stages.1.layers.3.layer.1.normalization.weight
+ (128)" fillcolor=lightblue]
+	5178595104 -> 13539050784
+	13539050784 [label=AccumulateGrad]
+	13539051984 -> 13539051456
+	13158023024 [label="resnet.encoder.stages.1.layers.3.layer.1.normalization.bias
+ (128)" fillcolor=lightblue]
+	13158023024 -> 13539051984
+	13539051984 [label=AccumulateGrad]
+	13539051840 -> 13539051024
+	13158022704 [label="resnet.encoder.stages.1.layers.3.layer.2.convolution.weight
+ (512, 128, 1, 1)" fillcolor=lightblue]
+	13158022704 -> 13539051840
+	13539051840 [label=AccumulateGrad]
+	13539051312 -> 13539052320
+	13158019664 [label="resnet.encoder.stages.1.layers.3.layer.2.normalization.weight
+ (512)" fillcolor=lightblue]
+	13158019664 -> 13539051312
+	13539051312 [label=AccumulateGrad]
+	13539051216 -> 13539052320
+	13158019264 [label="resnet.encoder.stages.1.layers.3.layer.2.normalization.bias
+ (512)" fillcolor=lightblue]
+	13158019264 -> 13539051216
+	13539051216 [label=AccumulateGrad]
+	13539052176 -> 13539051600
+	13539052464 -> 13539049728
+	13158012224 [label="resnet.encoder.stages.2.layers.0.layer.0.convolution.weight
+ (256, 512, 1, 1)" fillcolor=lightblue]
+	13158012224 -> 13539052464
+	13539052464 [label=AccumulateGrad]
+	13539049536 -> 13539049824
+	13158011984 [label="resnet.encoder.stages.2.layers.0.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	13158011984 -> 13539049536
+	13539049536 [label=AccumulateGrad]
+	13539050064 -> 13539049824
+	13158011264 [label="resnet.encoder.stages.2.layers.0.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	13158011264 -> 13539050064
+	13539050064 [label=AccumulateGrad]
+	13539049872 -> 13525034624
+	13158007744 [label="resnet.encoder.stages.2.layers.0.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	13158007744 -> 13539049872
+	13539049872 [label=AccumulateGrad]
+	13525036064 -> 13525038224
+	13158011024 [label="resnet.encoder.stages.2.layers.0.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	13158011024 -> 13525036064
+	13525036064 [label=AccumulateGrad]
+	13539051792 -> 13525038224
+	13158007264 [label="resnet.encoder.stages.2.layers.0.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	13158007264 -> 13539051792
+	13539051792 [label=AccumulateGrad]
+	13525035584 -> 13525035536
+	13158012464 [label="resnet.encoder.stages.2.layers.0.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	13158012464 -> 13525035584
+	13525035584 [label=AccumulateGrad]
+	13525038608 -> 13525035056
+	13157734176 [label="resnet.encoder.stages.2.layers.0.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	13157734176 -> 13525038608
+	13525038608 [label=AccumulateGrad]
+	13525035008 -> 13525035056
+	13157734016 [label="resnet.encoder.stages.2.layers.0.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	13157734016 -> 13525035008
+	13525035008 [label=AccumulateGrad]
+	13525040912 -> 13525036256
+	13525040912 [label=NativeBatchNormBackward0]
+	13525036112 -> 13525040912
+	13525036112 [label=ConvolutionBackward0]
+	13539050736 -> 13525036112
+	13539051168 -> 13525036112
+	13157055648 [label="resnet.encoder.stages.2.layers.0.shortcut.convolution.weight
+ (1024, 512, 1, 1)" fillcolor=lightblue]
+	13157055648 -> 13539051168
+	13539051168 [label=AccumulateGrad]
+	13525035488 -> 13525040912
+	13144534512 [label="resnet.encoder.stages.2.layers.0.shortcut.normalization.weight
+ (1024)" fillcolor=lightblue]
+	13144534512 -> 13525035488
+	13525035488 [label=AccumulateGrad]
+	13525036496 -> 13525040912
+	5178601664 [label="resnet.encoder.stages.2.layers.0.shortcut.normalization.bias
+ (1024)" fillcolor=lightblue]
+	5178601664 -> 13525036496
+	13525036496 [label=AccumulateGrad]
+	13525039472 -> 13525034240
+	13157733616 [label="resnet.encoder.stages.2.layers.1.layer.0.convolution.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	13157733616 -> 13525039472
+	13525039472 [label=AccumulateGrad]
+	13525035248 -> 13525037072
+	13157732896 [label="resnet.encoder.stages.2.layers.1.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157732896 -> 13525035248
+	13525035248 [label=AccumulateGrad]
+	13525036592 -> 13525037072
+	13157732736 [label="resnet.encoder.stages.2.layers.1.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157732736 -> 13525036592
+	13525036592 [label=AccumulateGrad]
+	13525034960 -> 13525031504
+	13157732416 [label="resnet.encoder.stages.2.layers.1.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	13157732416 -> 13525034960
+	13525034960 [label=AccumulateGrad]
+	13525039952 -> 13525038896
+	13157731696 [label="resnet.encoder.stages.2.layers.1.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157731696 -> 13525039952
+	13525039952 [label=AccumulateGrad]
+	13525037936 -> 13525038896
+	13157731536 [label="resnet.encoder.stages.2.layers.1.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157731536 -> 13525037936
+	13525037936 [label=AccumulateGrad]
+	13525032080 -> 13525032416
+	13157731216 [label="resnet.encoder.stages.2.layers.1.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	13157731216 -> 13525032080
+	13525032080 [label=AccumulateGrad]
+	13525039136 -> 13525039376
+	13157730416 [label="resnet.encoder.stages.2.layers.1.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	13157730416 -> 13525039136
+	13525039136 [label=AccumulateGrad]
+	13525038368 -> 13525039376
+	13157730256 [label="resnet.encoder.stages.2.layers.1.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	13157730256 -> 13525038368
+	13525038368 [label=AccumulateGrad]
+	13525032704 -> 13525039280
+	13525038416 -> 13525039232
+	13157729936 [label="resnet.encoder.stages.2.layers.2.layer.0.convolution.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	13157729936 -> 13525038416
+	13525038416 [label=AccumulateGrad]
+	13525039088 -> 13525040768
+	13157729136 [label="resnet.encoder.stages.2.layers.2.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157729136 -> 13525039088
+	13525039088 [label=AccumulateGrad]
+	13525040192 -> 13525040768
+	13157728976 [label="resnet.encoder.stages.2.layers.2.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157728976 -> 13525040192
+	13525040192 [label=AccumulateGrad]
+	13525038272 -> 13525037696
+	13157728656 [label="resnet.encoder.stages.2.layers.2.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	13157728656 -> 13525038272
+	13525038272 [label=AccumulateGrad]
+	13525025408 -> 13525031936
+	13157744096 [label="resnet.encoder.stages.2.layers.2.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157744096 -> 13525025408
+	13525025408 [label=AccumulateGrad]
+	13525024928 -> 13525031936
+	13157743696 [label="resnet.encoder.stages.2.layers.2.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157743696 -> 13525024928
+	13525024928 [label=AccumulateGrad]
+	13525027760 -> 13525033328
+	13158006864 [label="resnet.encoder.stages.2.layers.2.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	13158006864 -> 13525027760
+	13525027760 [label=AccumulateGrad]
+	13525031120 -> 13525033568
+	12999084544 [label="resnet.encoder.stages.2.layers.2.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	12999084544 -> 13525031120
+	13525031120 [label=AccumulateGrad]
+	13525034288 -> 13525033568
+	12999082464 [label="resnet.encoder.stages.2.layers.2.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	12999082464 -> 13525034288
+	13525034288 [label=AccumulateGrad]
+	13525032608 -> 13525030400
+	13525040288 -> 13525028768
+	12999082544 [label="resnet.encoder.stages.2.layers.3.layer.0.convolution.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	12999082544 -> 13525040288
+	13525040288 [label=AccumulateGrad]
+	13525031648 -> 13525040624
+	12999083344 [label="resnet.encoder.stages.2.layers.3.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	12999083344 -> 13525031648
+	13525031648 [label=AccumulateGrad]
+	13525025120 -> 13525040624
+	12999083184 [label="resnet.encoder.stages.2.layers.3.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	12999083184 -> 13525025120
+	13525025120 [label=AccumulateGrad]
+	13525038128 -> 13525026272
+	12999084704 [label="resnet.encoder.stages.2.layers.3.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	12999084704 -> 13525038128
+	13525038128 [label=AccumulateGrad]
+	13525026608 -> 13525025360
+	12999083504 [label="resnet.encoder.stages.2.layers.3.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	12999083504 -> 13525026608
+	13525026608 [label=AccumulateGrad]
+	13525026080 -> 13525025360
+	12999084784 [label="resnet.encoder.stages.2.layers.3.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	12999084784 -> 13525026080
+	13525026080 [label=AccumulateGrad]
+	13525031072 -> 13525033616
+	12999084624 [label="resnet.encoder.stages.2.layers.3.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	12999084624 -> 13525031072
+	13525031072 [label=AccumulateGrad]
+	13525030784 -> 13525028480
+	12999086384 [label="resnet.encoder.stages.2.layers.3.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	12999086384 -> 13525030784
+	13525030784 [label=AccumulateGrad]
+	13525032272 -> 13525028480
+	12999086464 [label="resnet.encoder.stages.2.layers.3.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	12999086464 -> 13525032272
+	13525032272 [label=AccumulateGrad]
+	13525034864 -> 13525026848
+	13525033520 -> 13525034432
+	13158018944 [label="resnet.encoder.stages.2.layers.4.layer.0.convolution.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	13158018944 -> 13525033520
+	13525033520 [label=AccumulateGrad]
+	13525039712 -> 13525024976
+	13326361264 [label="resnet.encoder.stages.2.layers.4.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	13326361264 -> 13525039712
+	13525039712 [label=AccumulateGrad]
+	13525025024 -> 13525024976
+	13326363184 [label="resnet.encoder.stages.2.layers.4.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	13326363184 -> 13525025024
+	13525025024 [label=AccumulateGrad]
+	13525024880 -> 13525030832
+	13326359984 [label="resnet.encoder.stages.2.layers.4.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	13326359984 -> 13525024880
+	13525024880 [label=AccumulateGrad]
+	13525032224 -> 13525033424
+	13326366144 [label="resnet.encoder.stages.2.layers.4.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	13326366144 -> 13525032224
+	13525032224 [label=AccumulateGrad]
+	13525030448 -> 13525033424
+	13326366384 [label="resnet.encoder.stages.2.layers.4.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	13326366384 -> 13525030448
+	13525030448 [label=AccumulateGrad]
+	13525032464 -> 13525037792
+	13326366784 [label="resnet.encoder.stages.2.layers.4.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	13326366784 -> 13525032464
+	13525032464 [label=AccumulateGrad]
+	13525025264 -> 13525032992
+	13326367584 [label="resnet.encoder.stages.2.layers.4.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	13326367584 -> 13525025264
+	13525025264 [label=AccumulateGrad]
+	13525027904 -> 13525032992
+	13326367664 [label="resnet.encoder.stages.2.layers.4.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	13326367664 -> 13525027904
+	13525027904 [label=AccumulateGrad]
+	13525036352 -> 13525032560
+	13525035728 -> 13525035680
+	13326367744 [label="resnet.encoder.stages.2.layers.5.layer.0.convolution.weight
+ (256, 1024, 1, 1)" fillcolor=lightblue]
+	13326367744 -> 13525035728
+	13525035728 [label=AccumulateGrad]
+	13525031792 -> 13525027856
+	13326368544 [label="resnet.encoder.stages.2.layers.5.layer.0.normalization.weight
+ (256)" fillcolor=lightblue]
+	13326368544 -> 13525031792
+	13525031792 [label=AccumulateGrad]
+	13525040240 -> 13525027856
+	13326368624 [label="resnet.encoder.stages.2.layers.5.layer.0.normalization.bias
+ (256)" fillcolor=lightblue]
+	13326368624 -> 13525040240
+	13525040240 [label=AccumulateGrad]
+	13525027328 -> 13525037408
+	13158013424 [label="resnet.encoder.stages.2.layers.5.layer.1.convolution.weight
+ (256, 256, 3, 3)" fillcolor=lightblue]
+	13158013424 -> 13525027328
+	13525027328 [label=AccumulateGrad]
+	13525031600 -> 13525038800
+	13157450528 [label="resnet.encoder.stages.2.layers.5.layer.1.normalization.weight
+ (256)" fillcolor=lightblue]
+	13157450528 -> 13525031600
+	13525031600 [label=AccumulateGrad]
+	13525033040 -> 13525038800
+	13157450608 [label="resnet.encoder.stages.2.layers.5.layer.1.normalization.bias
+ (256)" fillcolor=lightblue]
+	13157450608 -> 13525033040
+	13525033040 [label=AccumulateGrad]
+	13525032896 -> 13525027040
+	13157450688 [label="resnet.encoder.stages.2.layers.5.layer.2.convolution.weight
+ (1024, 256, 1, 1)" fillcolor=lightblue]
+	13157450688 -> 13525032896
+	13525032896 [label=AccumulateGrad]
+	13525033232 -> 13525034912
+	13157451408 [label="resnet.encoder.stages.2.layers.5.layer.2.normalization.weight
+ (1024)" fillcolor=lightblue]
+	13157451408 -> 13525033232
+	13525033232 [label=AccumulateGrad]
+	13525026320 -> 13525034912
+	13157451488 [label="resnet.encoder.stages.2.layers.5.layer.2.normalization.bias
+ (1024)" fillcolor=lightblue]
+	13157451488 -> 13525026320
+	13525026320 [label=AccumulateGrad]
+	13525032512 -> 13525035968
+	13525033808 -> 13525037984
+	13157453168 [label="resnet.encoder.stages.3.layers.0.layer.0.convolution.weight
+ (512, 1024, 1, 1)" fillcolor=lightblue]
+	13157453168 -> 13525033808
+	13525033808 [label=AccumulateGrad]
+	13525030592 -> 13525035872
+	13157453248 [label="resnet.encoder.stages.3.layers.0.layer.0.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157453248 -> 13525030592
+	13525030592 [label=AccumulateGrad]
+	13525029344 -> 13525035872
+	13157453408 [label="resnet.encoder.stages.3.layers.0.layer.0.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157453408 -> 13525029344
+	13525029344 [label=AccumulateGrad]
+	13525039664 -> 13525039040
+	13157454208 [label="resnet.encoder.stages.3.layers.0.layer.1.convolution.weight
+ (512, 512, 3, 3)" fillcolor=lightblue]
+	13157454208 -> 13525039664
+	13525039664 [label=AccumulateGrad]
+	13525030112 -> 13525037552
+	13157453488 [label="resnet.encoder.stages.3.layers.0.layer.1.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157453488 -> 13525030112
+	13525030112 [label=AccumulateGrad]
+	13525036880 -> 13525037552
+	13157454368 [label="resnet.encoder.stages.3.layers.0.layer.1.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157454368 -> 13525036880
+	13525036880 [label=AccumulateGrad]
+	13525025168 -> 13525036400
+	13157455088 [label="resnet.encoder.stages.3.layers.0.layer.2.convolution.weight
+ (2048, 512, 1, 1)" fillcolor=lightblue]
+	13157455088 -> 13525025168
+	13525025168 [label=AccumulateGrad]
+	13525032800 -> 13525025072
+	13157454448 [label="resnet.encoder.stages.3.layers.0.layer.2.normalization.weight
+ (2048)" fillcolor=lightblue]
+	13157454448 -> 13525032800
+	13525032800 [label=AccumulateGrad]
+	13525030352 -> 13525025072
+	13157455248 [label="resnet.encoder.stages.3.layers.0.layer.2.normalization.bias
+ (2048)" fillcolor=lightblue]
+	13157455248 -> 13525030352
+	13525030352 [label=AccumulateGrad]
+	13525041056 -> 13525030064
+	13525041056 [label=NativeBatchNormBackward0]
+	13525029680 -> 13525041056
+	13525029680 [label=ConvolutionBackward0]
+	13525029296 -> 13525029680
+	13525035296 -> 13525029680
+	13157742896 [label="resnet.encoder.stages.3.layers.0.shortcut.convolution.weight
+ (2048, 1024, 1, 1)" fillcolor=lightblue]
+	13157742896 -> 13525035296
+	13525035296 [label=AccumulateGrad]
+	13525029392 -> 13525041056
+	12999086304 [label="resnet.encoder.stages.3.layers.0.shortcut.normalization.weight
+ (2048)" fillcolor=lightblue]
+	12999086304 -> 13525029392
+	13525029392 [label=AccumulateGrad]
+	13525040432 -> 13525041056
+	13158012944 [label="resnet.encoder.stages.3.layers.0.shortcut.normalization.bias
+ (2048)" fillcolor=lightblue]
+	13158012944 -> 13525040432
+	13525040432 [label=AccumulateGrad]
+	13525029872 -> 13525037120
+	13157456048 [label="resnet.encoder.stages.3.layers.1.layer.0.convolution.weight
+ (512, 2048, 1, 1)" fillcolor=lightblue]
+	13157456048 -> 13525029872
+	13525029872 [label=AccumulateGrad]
+	13525037264 -> 13525040816
+	13157455328 [label="resnet.encoder.stages.3.layers.1.layer.0.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157455328 -> 13525037264
+	13525037264 [label=AccumulateGrad]
+	13525026464 -> 13525040816
+	13157456208 [label="resnet.encoder.stages.3.layers.1.layer.0.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157456208 -> 13525026464
+	13525026464 [label=AccumulateGrad]
+	13525040144 -> 13525027568
+	13157457008 [label="resnet.encoder.stages.3.layers.1.layer.1.convolution.weight
+ (512, 512, 3, 3)" fillcolor=lightblue]
+	13157457008 -> 13525040144
+	13525040144 [label=AccumulateGrad]
+	13525028912 -> 13525697104
+	13157456288 [label="resnet.encoder.stages.3.layers.1.layer.1.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157456288 -> 13525028912
+	13525028912 [label=AccumulateGrad]
+	13525029824 -> 13525697104
+	13157457168 [label="resnet.encoder.stages.3.layers.1.layer.1.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157457168 -> 13525029824
+	13525029824 [label=AccumulateGrad]
+	13525702384 -> 13525703968
+	13157457968 [label="resnet.encoder.stages.3.layers.1.layer.2.convolution.weight
+ (2048, 512, 1, 1)" fillcolor=lightblue]
+	13157457968 -> 13525702384
+	13525702384 [label=AccumulateGrad]
+	13525706704 -> 13525700176
+	13157457248 [label="resnet.encoder.stages.3.layers.1.layer.2.normalization.weight
+ (2048)" fillcolor=lightblue]
+	13157457248 -> 13525706704
+	13525706704 [label=AccumulateGrad]
+	13525706512 -> 13525700176
+	13157458128 [label="resnet.encoder.stages.3.layers.1.layer.2.normalization.bias
+ (2048)" fillcolor=lightblue]
+	13157458128 -> 13525706512
+	13525706512 [label=AccumulateGrad]
+	13525700272 -> 13525707040
+	13525698016 -> 13525705888
+	13157458928 [label="resnet.encoder.stages.3.layers.2.layer.0.convolution.weight
+ (512, 2048, 1, 1)" fillcolor=lightblue]
+	13157458928 -> 13525698016
+	13525698016 [label=AccumulateGrad]
+	13525699600 -> 13525711984
+	13157458208 [label="resnet.encoder.stages.3.layers.2.layer.0.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157458208 -> 13525699600
+	13525699600 [label=AccumulateGrad]
+	13525706560 -> 13525711984
+	13157459088 [label="resnet.encoder.stages.3.layers.2.layer.0.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157459088 -> 13525706560
+	13525706560 [label=AccumulateGrad]
+	13525710784 -> 13525707664
+	13157459888 [label="resnet.encoder.stages.3.layers.2.layer.1.convolution.weight
+ (512, 512, 3, 3)" fillcolor=lightblue]
+	13157459888 -> 13525710784
+	13525710784 [label=AccumulateGrad]
+	13525705696 -> 13525701856
+	13157459168 [label="resnet.encoder.stages.3.layers.2.layer.1.normalization.weight
+ (512)" fillcolor=lightblue]
+	13157459168 -> 13525705696
+	13525705696 [label=AccumulateGrad]
+	13525704496 -> 13525701856
+	13157460048 [label="resnet.encoder.stages.3.layers.2.layer.1.normalization.bias
+ (512)" fillcolor=lightblue]
+	13157460048 -> 13525704496
+	13525704496 [label=AccumulateGrad]
+	13525710400 -> 13525712368
+	13157460848 [label="resnet.encoder.stages.3.layers.2.layer.2.convolution.weight
+ (2048, 512, 1, 1)" fillcolor=lightblue]
+	13157460848 -> 13525710400
+	13525710400 [label=AccumulateGrad]
+	13525702576 -> 13525706368
+	13157460128 [label="resnet.encoder.stages.3.layers.2.layer.2.normalization.weight
+ (2048)" fillcolor=lightblue]
+	13157460128 -> 13525702576
+	13525702576 [label=AccumulateGrad]
+	13525705168 -> 13525706368
+	13157461008 [label="resnet.encoder.stages.3.layers.2.layer.2.normalization.bias
+ (2048)" fillcolor=lightblue]
+	13157461008 -> 13525705168
+	13525705168 [label=AccumulateGrad]
+	13525703728 -> 13525705552
+	13525706032 -> 13525706272
+	13525706032 [label=TBackward0]
+	13525707424 -> 13525706032
+	13266989008 [label="classifier.1.weight
+ (2, 2048)" fillcolor=lightblue]
+	13266989008 -> 13525707424
+	13525707424 [label=AccumulateGrad]
+	13524998832 -> 13524530304
+}

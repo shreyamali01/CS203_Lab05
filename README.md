@@ -6,67 +6,80 @@
 
 ## Task 1 : Data Augmentation
 
-a. Data Downloaded from : https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification?select=test
-b. The Dataset Contains total 70 Images for Cats and Dogs Respectively. 
-c. On splitting the train-test dataset in 80:20 % ratio, we get 56 images in train set for each cat and dog. And 14 images in test set for each cat and dog. 
+#### a. Data Downloaded from
+- Kaggle dataset: [Cats and Dogs Image Classification](https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification?select=test)
 
-![Plot of Train and Test Set : Cats and Dogs](plot1.png)
+#### b. Dataset Overview
+- The dataset contains 70 images for both Cats and Dogs.
+- The dataset was split into 80% training and 20% testing:
+  - Training Set: 56 images for each class (Cats & Dogs)
+  - Test Set: 14 images for each class (Cats & Dogs)
 
-d. A custom data augmentation function was implemented using the **Augly** library, applying the following **10 augmentation techniques**:
+#### c. Data Augmentation Process
+- A custom data augmentation function was implemented using the **Augly** library.
+- The following **10 augmentation techniques** were applied:
+  - Rotation
+  - Crop
+  - Blur
+  - Brightness
+  - Contrast
+  - Saturation
+  - Horizontal Flipping
+  - Vertical Flipping
+  - Scaling
+  - Padding
+  - Random Noise
+  
+Each image in the original dataset was augmented 3 times using a combination of the techniques, resulting in a total of **224 augmented images** (2 times the original training dataset).
 
-- Rotation
-- Crop
-- Blur
-- Brightness
-- Contrast
-- Saturation
-- Horizontal Flipping
-- Vertical Flipping
-- Scaling
-- Padding
-- Random Noise
+![Plot of Train and Test Set: Cats and Dogs](plot1.png)
+![Plot of Train vs Test set](plot3.png)
 
-Each Image in the given dataset was augmented 3 times (with combination of above mentioned techniques) twice. As a result, we initially had 112 (56 cats + 56 dogs) images, after applying augmentation we have, 112x2 = 224 augmented images. 
-
-![Plot of Train and Test Set : Cats and Dogs](plot2.png)
-
-### Dataset Statistics:
+#### d. Dataset Statistics
 
 | Dataset Type           | Original Count | Augmented Count | Total Count  |
 |------------------------|----------------|------------------|--------------|
-| **Training Set**        | 112 images     | 224 images     | 336 images |
-| **Testing Set**         | 28 images     | 0 images         | 28 images   |
+| **Training Set**        | 112 images     | 224 images       | 336 images   |
+| **Testing Set**         | 28 images      | 0 images         | 28 images    |
 
+#### e. Distribution of Cat and Dog Images
+- A **bar graph** showing the number of cat and dog images in both the train and test sets, before and after augmentation.
 
-## 3. Model Training
+![Dataset Distribution](plot2.png)
 
-The **ResNet-50** model from Hugging Face was used for both training tasks. The model was initialized with random weights.
+---
 
-- Model Architecture Details : ResNet-50 (Initial weights of both the models are same)
-- Optimizer : Adam with a learning rate of 0.01
-- Loss Function : Cross-Entropy Loss function 
-- Number of Epochs : 7
-- Batch Size : 32
+### Task 2: Model Training
+
+#### a. Model Details
+- **Model Architecture**: ResNet-50 (Initialized with random weights)
+- **Optimizer**: Adam (Learning rate = 0.01)
+- **Loss Function**: Cross-Entropy Loss
+- **Number of Epochs**: 7
+- **Batch Size**: 32
+
+#### b. Model Architecture Diagram
+- **ResNet-50 Architecture** (as shown below)
 
 ![ResNet-50 Architecture](ResNet50.jpeg)
 
-## 4. Evaluation Metrics
+#### c. Training Results
 
-The following metrics were used to evaluate both models on the test set:
+##### Model 1 (Without Augmentation):
+- **Accuracy**: 57.14%
+- **Precision**: 55.56%
+- **Recall**: 71.43%
+- **F1 Score**: 62.50%
 
-### Model 1 (Without Augmentation):
-- **Accuracy**: 0.5714
-- **Precision**: 0.5556
-- **Recall**: 0.7143
-- **F1 Score**: 0.6250
+##### Model 2 (With Augmentation):
+- **Accuracy**: 71.43%
+- **Precision**: 66.67%
+- **Recall**: 85.71%
+- **F1 Score**: 75.00%
 
-### Model 2 (With Augmentation):
-- **Accuracy**: 0.7143
-- **Precision**: 0.6667
-- **Recall**: 0.8571
-- **F1 Score**: 0.7500
+---
 
-## 5. Results Analysis
+## Results Analysis
 
 - The model trained on original dataset shows consistent loss reduction but with a low accuracy of 57.14%. This could possibly be due to overfitting.
 

@@ -82,6 +82,9 @@ Here models used for training with augmented and original data were initialised 
 - **Recall**: 85.71%
 - **F1 Score**: 75.00%
 
+##### Plot of Loss v/s Epochs for Model 1 and Model 2
+![Plot](finalplot.png)
+
 ---
 
 ## Results Analysis

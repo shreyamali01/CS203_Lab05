@@ -61,7 +61,7 @@ Each image in the original dataset was augmented 3 times using a combination of 
 
 Here models used for training with augmented and original data were initialised with same random weights, since deepcopy of a base model was made. 
 
-<img src="output.png" alt="Initial Weights for the Models" width="400"/>
+<img src="output.jpeg" alt="Initial Weights for the Models" width="400"/>
 
 #### b. Model Architecture Diagram
 - **ResNet-50 Architecture** (as shown below)

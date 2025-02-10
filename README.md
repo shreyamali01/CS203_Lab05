@@ -58,6 +58,8 @@ Each image in the original dataset was augmented 3 times using a combination of 
 - **Number of Epochs**: 7
 - **Batch Size**: 32
 
+Here models used for training with augmented and original data were initialised with same random weights, since deepcopy of a base model was made. 
+
 #### b. Model Architecture Diagram
 - **ResNet-50 Architecture** (as shown below)
 
